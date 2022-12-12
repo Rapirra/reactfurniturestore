@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import { connect } from 'react-redux';
+import NavPanel from './components/NavPanel/NavPanel';
+import Home from './components/Home/Home';
+import {Route, Routes } from 'react-router-dom'
+import UserCart from './components/UserSelect/UserCart'
+import UserFav from './components/UserSelect/UserFav'
+import { BrowserRouter } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App  my-0 mx-auto ">
+      <BrowserRouter>
+        <NavPanel />
+        <Routes>            
+          <Route path='/usercart' element={<UserCart />}></Route>
+          <Route path='/userfav' element={<UserFav />}></Route>
+          <Route path='/' element={<Home />}></Route>
+        </Routes>   
+      </BrowserRouter> 
     </div>
   );
 }
 
-export default App;
+const mapStatetoProps = (state) => {
+  return state
+}
+
+
+
+
+export default connect(mapStatetoProps) (App);

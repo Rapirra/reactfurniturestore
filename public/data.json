@@ -1,0 +1,152 @@
+{
+    "slider": [
+        {
+            "title": "Get ready for Our stylist chair",
+            "image": "image/slider.jpg"
+        },
+        {
+            "title": "Second Get ready for Our stylist chair",
+            "image": "image/slider.jpg"
+        },
+        {
+            "title": "Last Get ready for Our stylist chair",
+            "image": "image/slider.jpg"
+        }
+    ],
+    "bestseller": [
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/lamp.png",
+            "price": "$79.00",
+            "id":1
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/alarm.png",
+            "price": "$79.00",
+            "id":2
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/chair.png",
+            "price": "$79.00",
+            "id":3
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/chair2.png",
+            "price": "$79.00",
+            "id":4
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/clock.png",
+            "price": "$79.00",
+            "id":5
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/pillow.png",
+            "price": "$79.00",
+            "id":6
+        },
+        {
+            "productname": "Metal Vintage Pendant",
+            "image": "/image/bestseller/chair1.png",
+            "price": "$79.00",
+            "id":7
+        }
+    ],
+    "dealoftheweek":[
+        {            
+            "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
+            "image": "/image/bestseller/lamp.png",
+            "price": "$99.00"            
+        },
+        {            
+            "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
+            "image": "/image/bestseller/lamp.png",
+            "price": "$79.00"            
+        },
+        {            
+            "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
+            "image": "/image/bestseller/lamp.png",
+            "price": "$79.00"            
+        }
+    ],
+    "trendingcarousel": [
+        {
+            "image": "/image/carousel/chair.png",
+            "title": "chair",
+            "category": "chair",
+            "id": 1
+        },
+        {
+            "image": "/image/carousel/bed.png",
+            "title": "bed",
+            "category": "bed",
+            "id": 2
+        },
+        {
+            "image": "/image/carousel/dressingtable.png",
+            "title": "dressing table",
+            "category": "dressingtable",
+            "id": 3
+        },
+        {
+            "image": "/image/carousel/lamp.png",
+            "title": "lamp",
+            "category": "lamp",
+            "id": 4
+        },
+        {
+            "image": "/image/carousel/sofa.png",
+            "title": "sofa",
+            "category": "sofa",
+            "id": 5
+        },
+        {
+            "image": "/image/carousel/Vector.png",
+            "title": "dresser",
+            "category": "dresser",
+            "id": 6
+        }
+    ],
+    "trendingcategories": {
+        "dressingtable":[
+            {
+                "image": "/image/trendingcategories/img1.png",
+                "title": "Vasagle Vanity Table",
+                "price": " $1,200.00",
+                "id":1
+            },
+            {
+                "image": "/image/trendingcategories/img2.png",
+                "title": "Vasagle Vanity Table",
+                "price": " $1,200.00",
+                "id":2
+            },
+            {
+                "image": "/image/trendingcategories/img3.png",
+                "title": "Vasagle Vanity Table",
+                "price": " $1,200.00",
+                "id": 3
+            },
+            {
+                "image": "/image/trendingcategories/img4.png",
+                "title": "Vasagle Vanity Table",
+                "price": " $1,200.00",
+                "id":4
+            }
+        ],
+        "chair": [],
+        "bed": [],
+        "lamp": [],
+        "sofa": [],
+        "dresser": []
+    },
+    "cart": [],
+    "favourite":[]
+
+
+}

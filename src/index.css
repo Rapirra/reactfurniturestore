@@ -1,3 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  p{@apply my-0}
+  .nav-link-list{@apply font-openSans text-base text-[#697391] mx-4 hover:text-black}
+  .active {@apply border}
+  .card-style {@apply  bg-white font-openSans px-11 pt-11 pb-10 }
+  .card-style h4 {@apply font-openSans text-base text-[#2A2A2B] font-normal capitalize}
+  .card-style h6{@apply text-[#8C8C8C] font-federo text-sm}
+  .trendingcarousel p { @apply text-[#757575] capitalize font-openSans font-semibold text-sm my-0}
+  .btn-panel{@apply flex flex-col absolute right-[3%]}
+  .btn-panel button{@apply border w-7 h-7 p-1 mb-1 }
+  .link-flex { @apply flex flex-col text-start mt-11}
+  .link-flex h3{@apply text-black font-openSans text-2xl leading-[54px]}
+  .link-list {@apply text-[#8A8A8A] text-xl font-openSans font-normal no-underline leading-[45px]}
+  .greenimg {@apply pt-16 pb-32 }
+  .hide{@apply hidden}
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +30,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+Link {
+  text-decoration: none;
 }
