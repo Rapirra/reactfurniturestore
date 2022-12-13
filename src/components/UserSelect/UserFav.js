@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 export default function UserFav() {
 
     const showFav = useSelector(state => state.fav)
-    console.log(showFav)
+   
     const dispatch = useDispatch()
 
     const deleteItem = (value) => {
@@ -12,7 +12,7 @@ export default function UserFav() {
       )
     }
   return (
-    <div className='flex row container mx-auto my-0'>
+    <div className='flex row container mx-auto my-0 py-14'>
     {showFav && showFav.map((item) => (
       <div className="card-style flex column" key={item.id}>            
           <img src={item.image} alt={item.title}  />

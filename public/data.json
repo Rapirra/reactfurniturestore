@@ -15,43 +15,43 @@
     ],
     "bestseller": [
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/lamp.png",
             "price": "$79.00",
             "id":1
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/alarm.png",
             "price": "$79.00",
             "id":2
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/chair.png",
             "price": "$79.00",
             "id":3
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/chair2.png",
             "price": "$79.00",
             "id":4
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/clock.png",
             "price": "$79.00",
             "id":5
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/pillow.png",
             "price": "$79.00",
             "id":6
         },
         {
-            "productname": "Metal Vintage Pendant",
+            "title": "Metal Vintage Pendant",
             "image": "/image/bestseller/chair1.png",
             "price": "$79.00",
             "id":7
@@ -60,18 +60,33 @@
     "dealoftheweek":[
         {            
             "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
-            "image": "/image/bestseller/lamp.png",
-            "price": "$99.00"            
+            "image": "/image/dealofweek/sofa.png",
+            "price": "$99.00",
+            "id":1            
         },
         {            
             "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
-            "image": "/image/bestseller/lamp.png",
-            "price": "$79.00"            
+            "image": "/image/dealofweek/img1.png",
+            "price": "$99.00",
+            "id":2           
         },
         {            
             "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
-            "image": "/image/bestseller/lamp.png",
-            "price": "$79.00"            
+            "image": "/image/dealofweek/img2.png",
+            "price": "$99.00",
+            "id":3            
+        },
+        {            
+            "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
+            "image": "/image/dealofweek/img3.png",
+            "price": "$79.00",
+            "id":4            
+        },
+        {            
+            "productdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eget hendrerit odio, non ultrices lorem. Donec vel vestibulum eros. Curabitur fringilla arcu varius.",
+            "image": "/image/dealofweek/img4.png",
+            "price": "$79.00",
+            "id":5            
         }
     ],
     "trendingcarousel": [

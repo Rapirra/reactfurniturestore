@@ -4,7 +4,6 @@ import { useSelector, useDispatch } from 'react-redux'
 
 export default function UserCart() {
     const showCart = useSelector(state => state.cart)
-    console.log(showCart)
     const dispatch = useDispatch()
 
     const deleteItem = (value) => {
@@ -28,7 +27,7 @@ export default function UserCart() {
     }
   return (
 
-    <div className=' container mx-auto my-0'>
+    <div className=' container mx-auto my-0 py-14'>
       {showCart && showCart.map((item) => (
         <div className="card-style flex column" key={item.id}>            
             <img src={item.image} alt={item.title}  />

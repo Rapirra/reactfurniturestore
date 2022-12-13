@@ -4,7 +4,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 export default function NavPanel() {
   return (
@@ -21,8 +23,8 @@ export default function NavPanel() {
           </Nav>
 
           <Nav>            
-            <Nav.Link className='mx-2 hover:text-black' as={Link} to={"/usercart"}><img src={process.env.PUBLIC_URL + '/image/cart.svg'} alt="foot-logo"/></Nav.Link>
-            <Nav.Link className='mx-2 hover:fill-red' as={Link} to={"/userfav"}><img src={process.env.PUBLIC_URL + '/image/heart.svg'} alt="foot-logo"/></Nav.Link>
+            <Nav.Link  as={Link} to={"/usercart"}><FontAwesomeIcon className='iconfacart' icon={faCartShopping}/></Nav.Link>
+            <Nav.Link className='mx-2 hover:text-red' as={Link} to={"/userfav"}><FontAwesomeIcon className='iconfaheart' icon={faHeart}/></Nav.Link>
           </Nav>
 
         </Container>
